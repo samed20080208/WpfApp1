@@ -1,0 +1,17 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="1000" Background="Black">
+    <Grid Margin="0,0,0,0">
+        <Button x:Name="btn1" Content="1" HorizontalAlignment="Left" VerticalAlignment="Top" Height="150" Width="250" Margin="50,50,50,50" FontSize="50" Background="red" Click="Button_Click" MouseRightButtonUp="btn1_delete" />
+        <Button x:Name="btn2" Content="3" HorizontalAlignment="Right" VerticalAlignment="Top" Height="150" Width="250" Margin="50,50,50,50" FontSize="50" Background="Yellow" Click="btn2_Click" MouseRightButtonUp="btn3_delete"/>
+        <Button x:Name="btn3" Content="2" HorizontalAlignment="Center" VerticalAlignment="Top" Height="150" Width="250" Margin="50,50,50,50" FontSize="50" Background="Blue" Click="btn3_Click" MouseRightButtonUp="btn2_delete"/>
+        <Button x:Name="btn4" Content="5" HorizontalAlignment="Center" VerticalAlignment="Bottom" Height="150" Width="250" Margin="50,50,50,50" FontSize="50" Background="Cyan" Click="btn4_Click" MouseRightButtonUp="btn5_delete"/>
+        <Button x:Name="btn5" Content="4" HorizontalAlignment="Left" VerticalAlignment="Bottom" Height="150" Width="250" Margin="50,50,50,50" FontSize="50" Background="BlueViolet" Click="btn5_Click" MouseRightButtonUp="btn4_delete"/>
+        <Button x:Name="btn6" Content="6" HorizontalAlignment="Right" VerticalAlignment="Bottom" Height="150" Width="250" Margin="50,50,50,50" FontSize="50" Background="Lime" Click="btn6_Click" MouseRightButtonUp="btn6_delete" />
+    </Grid>
+</Window>
